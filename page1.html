@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page1 | Агрегатор онлайн-курсов</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/page1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="page1.html" class="logo">Logo</a>
+                <ul class="nav-menu">
+                    <li><a href="page2.html">Курсы</a></li>
+                    <li><a href="#">Школы</a></li>
+                    <li><a href="#">Отзывы о школах</a></li>
+                    <li><a href="#">Акции школ</a></li>
+                    <li><a href="#">Блог</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <div class="notification-icon">
+                        <img src="images/transfer.svg" alt="Уведомления">
+                        <span class="notification-badge">3</span>
+                    </div>
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Искать курсы">
+                    </div>
+                    <button class="burger-menu">
+                        <img src="images/bars.svg" alt="Menu">
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <button class="close-btn">&times;</button>
+        <ul>
+            <li><a href="page2.html">Курсы</a></li>
+            <li><a href="#">Школы</a></li>
+            <li><a href="#">Отзывы о школах</a></li>
+            <li><a href="#">Акции школ</a></li>
+            <li><a href="#">Блог</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                <h1>Агрегатор онлайн-курсов</h1>
+                    <p>Сравниваем онлайн-курсы по digital и IT.<br>
+                       Мы — каталог-отзовик курсов. Выбирайте курсы по отзывам,<br>
+                   цене, продолжительности и другим критериям!</p>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-illustration.png" alt="Hero Illustration">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="advantages">
+        <div class="container">
+            <h2>Наши преимущества</h2>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img src="images/advantages-1.svg" alt="Большой выбор">
+                    </div>
+                    <div class="advantage-content">
+                    <h3>Большой выбор онлайн-курсов</h3>
+                        <p>Мы аккумулируем большое количество онлайн-курсов по различным направлениям, позволяя сравнивать их, и выбирать то, что вам нравится</p>
+                    </div>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img src="images/advantages-2.svg" alt="Актуальная информация">
+                    </div>
+                    <div class="advantage-content">
+                    <h3>Актуальная информация</h3>
+                        <p>Мы регулярно обновляем наши базы данных, чтобы предоставлять вам только самую свежую информацию о новых курсах, старте обучения, скидках и предложениях от онлайн-школ</p>
+                    </div>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img src="images/advantages-3.svg" alt="Скорость поиска">
+                    </div>
+                    <div class="advantage-content">
+                    <h3>Скорость поиска</h3>
+                        <p>Агрегатор курсов создан для экономии вашего времени. Вы можете с легкостью найти подходящий курс в нашем каталоге по различным фильтрам</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2>Направления курсов</h2>
+            <div class="course-directions">
+                <div class="directions-sidebar">
+                    <ul class="direction-categories">
+                        <li class="active">Программирование</li>
+                        <li>Маркетинг</li>
+                        <li>Дизайн</li>
+                        <li>Аналитика</li>
+                        <li>Финансы</li>
+                        <li>Управление</li>
+                        <li>Контент-маркетинг</li>
+                    </ul>
+                </div>
+                <div class="directions-content">
+                    <div class="directions-column">
+                        <a href="#" class="direction-link">Все курсы по программированию</a>
+                        <a href="#" class="direction-link">Python-разработка</a>
+                        <a href="#" class="direction-link">Web-разработка</a>
+                        <a href="#" class="direction-link">Мобильная разработка</a>
+                        <a href="#" class="direction-link">JavaScript-разработка</a>
+                        <a href="#" class="direction-link">Java-разработка</a>
+                        <a href="#" class="direction-link">Разработка игр</a>
+                        <a href="#" class="direction-link">Создание сайтов</a>
+                        <a href="#" class="direction-link">Системное администрирование</a>
+                        <a href="#" class="direction-link">QA-тестирование</a>
+                    </div>
+                    <div class="directions-column">
+                        <a href="#" class="direction-link">Android-разработка</a>
+                        <a href="#" class="direction-link">Управление разработкой и IT</a>
+                        <a href="#" class="direction-link">Frontend-разработка</a>
+                        <a href="#" class="direction-link">Разработка игр на Unity</a>
+                        <a href="#" class="direction-link">Разработка на C#</a>
+                        <a href="#" class="direction-link">PHP-разработка</a>
+                        <a href="#" class="direction-link">DevOps</a>
+                        <a href="#" class="direction-link">iOS-разработка</a>
+                        <a href="#" class="direction-link">Верстка на HTML/CSS</a>
+                        <a href="#" class="direction-link">Разработка на C++</a>
+                    </div>
+                    <div class="directions-column">
+                        <a href="#" class="direction-link">Разработка игр на Unreal Engine</a>
+                        <a href="#" class="direction-link">Разработка на Kotlin</a>
+                        <a href="#" class="direction-link">Информационная безопасность</a>
+                        <a href="#" class="direction-link">Golang-разработка</a>
+                        <a href="#" class="direction-link">Разработка на Swift</a>
+                        <a href="#" class="direction-link">1C-разработка</a>
+                        <a href="#" class="direction-link">VR/AR разработка</a>
+                        <a href="#" class="direction-link">Фреймворк Laravel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schools Section -->
+    <section class="schools">
+        <div class="container">
+            <h2>Школы</h2>
+            <div class="schools-slider-container">
+                <!-- Custom navigation buttons with explicit role -->
+                <button type="button" class="custom-prev-btn" aria-label="Previous slide"></button>
+                <button type="button" class="custom-next-btn" aria-label="Next slide"></button>
+                
+            <div class="swiper schools-slider">
+                <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/netology-logo.svg" alt="нетология">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/skillfactory-logo.svg" alt="SkillFactory">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/otus-logo.svg" alt="OTUS">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/geekbrains-logo.svg" alt="GeekBrains">
+                        </div>
+                    </div>
+                    
+                    <!-- Swiper dots -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Courses -->
+    <section class="popular-courses">
+        <div class="container">
+            <h2>Популярные онлайн-курсы</h2>
+            <div class="courses-filters">
+                <button class="active">Программирование</button>
+                <button>Маркетинг</button>
+                <button>Дизайн</button>
+                <button>Аналитика</button>
+                <button>Финансы</button>
+                <button>Управление</button>
+                <button>Контент-маркетинг</button>
+                <button>Иностранные языки</button>
+            </div>
+            <div class="courses-grid">
+                <!-- Course cards -->
+                <div class="course-card">
+                    <div class="course-title-section">
+                        <h3>Профессия<br>веб-разработчик</h3>
+                    </div>
+                    <div class="course-school-section">
+                        <div class="school-name">Skillbox</div>
+                        <div class="rating">
+                            <span class="stars">★</span>
+                            <span class="rating-value">4.5</span>
+                        </div>
+                        <div class="reviews">
+                            <a href="#">Отзывы о школе 58</a>
+                        </div>
+                    </div>
+                    <div class="course-price-section">
+                        <div class="old-price">85 000 руб</div>
+                        <div class="current-price">66 800 руб</div>
+                        <div class="monthly-payment">от 4 745 руб./месяц</div>
+                    </div>
+                    <div class="course-features">
+                        <div class="feature">
+                            <img src="images/calendar-icon.svg" alt="Duration">
+                            <span>3 месяца</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/clock-icon.svg" alt="Schedule">
+                            <span>В любое время</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/suitcase-icon.svg" alt="Internship">
+                            <span>Стажировка</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/diploma-icon.svg" alt="Diploma">
+                            <span>Диплом</span>
+                        </div>
+                    </div>
+                    <div class="course-actions">
+                        <a href="#" class="btn btn-primary">На сайт курса</a>
+                        <a href="#" class="btn btn-outline">Подробнее</a>
+                        <a href="#" class="compare-link">
+                            <img src="images/shuffle-icon.svg" alt="Compare">
+                            Добавить к сравнению
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-title-section">
+                        <h3>Профессия<br>веб-разработчик</h3>
+                    </div>
+                    <div class="course-school-section">
+                        <div class="school-name">Skillbox</div>
+                        <div class="rating">
+                            <span class="stars">★</span>
+                            <span class="rating-value">4.5</span>
+                        </div>
+                        <div class="reviews">
+                            <a href="#">Отзывы о школе 58</a>
+                        </div>
+                    </div>
+                    <div class="course-price-section">
+                        <div class="old-price">85 000 руб</div>
+                        <div class="current-price">66 800 руб</div>
+                        <div class="monthly-payment">от 4 745 руб./месяц</div>
+                    </div>
+                    <div class="course-features">
+                        <div class="feature">
+                            <img src="images/calendar-icon.svg" alt="Duration">
+                            <span>3 месяца</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/clock-icon.svg" alt="Schedule">
+                            <span>В любое время</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/suitcase-icon.svg" alt="Internship">
+                            <span>Стажировка</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/diploma-icon.svg" alt="Diploma">
+                            <span>Диплом</span>
+                        </div>
+                    </div>
+                    <div class="course-actions">
+                        <a href="#" class="btn btn-primary">На сайт курса</a>
+                        <a href="#" class="btn btn-outline">Подробнее</a>
+                        <a href="#" class="compare-link">
+                            <img src="images/shuffle-icon.svg" alt="Compare">
+                            Добавить к сравнению
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Third course card -->
+                <div class="course-card">
+                    <div class="course-title-section">
+                        <h3>Профессия<br>веб-разработчик</h3>
+                    </div>
+                    <div class="course-school-section">
+                        <div class="school-name">Skillbox</div>
+                        <div class="rating">
+                            <span class="stars">★</span>
+                            <span class="rating-value">4.5</span>
+                        </div>
+                        <div class="reviews">
+                            <a href="#">Отзывы о школе 58</a>
+                        </div>
+                    </div>
+                    <div class="course-price-section">
+                        <div class="old-price">85 000 руб</div>
+                        <div class="current-price">66 800 руб</div>
+                        <div class="monthly-payment">от 4 745 руб./месяц</div>
+                    </div>
+                    <div class="course-features">
+                        <div class="feature">
+                            <img src="images/calendar-icon.svg" alt="Duration">
+                            <span>3 месяца</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/clock-icon.svg" alt="Schedule">
+                            <span>В любое время</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/suitcase-icon.svg" alt="Internship">
+                            <span>Стажировка</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/diploma-icon.svg" alt="Diploma">
+                            <span>Диплом</span>
+                        </div>
+                    </div>
+                    <div class="course-actions">
+                        <a href="#" class="btn btn-primary">На сайт курса</a>
+                        <a href="#" class="btn btn-outline">Подробнее</a>
+                        <a href="#" class="compare-link">
+                            <img src="images/shuffle-icon.svg" alt="Compare">
+                            Добавить к сравнению
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Fourth course card -->
+                <div class="course-card">
+                    <div class="course-title-section">
+                        <h3>Профессия<br>веб-разработчик</h3>
+                    </div>
+                    <div class="course-school-section">
+                        <div class="school-name">Skillbox</div>
+                        <div class="rating">
+                            <span class="stars">★</span>
+                            <span class="rating-value">4.5</span>
+                        </div>
+                        <div class="reviews">
+                            <a href="#">Отзывы о школе 58</a>
+                        </div>
+                    </div>
+                    <div class="course-price-section">
+                        <div class="old-price">85 000 руб</div>
+                        <div class="current-price">66 800 руб</div>
+                        <div class="monthly-payment">от 4 745 руб./месяц</div>
+                    </div>
+                    <div class="course-features">
+                        <div class="feature">
+                            <img src="images/calendar-icon.svg" alt="Duration">
+                            <span>3 месяца</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/clock-icon.svg" alt="Schedule">
+                            <span>В любое время</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/suitcase-icon.svg" alt="Internship">
+                            <span>Стажировка</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/diploma-icon.svg" alt="Diploma">
+                            <span>Диплом</span>
+                        </div>
+                    </div>
+                    <div class="course-actions">
+                        <a href="#" class="btn btn-primary">На сайт курса</a>
+                        <a href="#" class="btn btn-outline">Подробнее</a>
+                        <a href="#" class="compare-link">
+                            <img src="images/shuffle-icon.svg" alt="Compare">
+                            Добавить к сравнению
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Fifth course card -->
+                <div class="course-card">
+                    <div class="course-title-section">
+                        <h3>Профессия<br>веб-разработчик</h3>
+                    </div>
+                    <div class="course-school-section">
+                        <div class="school-name">Skillbox</div>
+                        <div class="rating">
+                            <span class="stars">★</span>
+                            <span class="rating-value">4.5</span>
+                        </div>
+                        <div class="reviews">
+                            <a href="#">Отзывы о школе 58</a>
+                        </div>
+                    </div>
+                    <div class="course-price-section">
+                        <div class="old-price">85 000 руб</div>
+                        <div class="current-price">66 800 руб</div>
+                        <div class="monthly-payment">от 4 745 руб./месяц</div>
+                    </div>
+                    <div class="course-features">
+                        <div class="feature">
+                            <img src="images/calendar-icon.svg" alt="Duration">
+                            <span>3 месяца</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/clock-icon.svg" alt="Schedule">
+                            <span>В любое время</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/suitcase-icon.svg" alt="Internship">
+                            <span>Стажировка</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/diploma-icon.svg" alt="Diploma">
+                            <span>Диплом</span>
+                        </div>
+                    </div>
+                    <div class="course-actions">
+                        <a href="#" class="btn btn-primary">На сайт курса</a>
+                        <a href="#" class="btn btn-outline">Подробнее</a>
+                        <a href="#" class="compare-link">
+                            <img src="images/shuffle-icon.svg" alt="Compare">
+                            Добавить к сравнению
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button class="show-more">Посмотреть еще</button>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+        <div class="container">
+            <h2>Блог</h2>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <span class="blog-category">Онлайн курсы по маркетингу</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Топ-10 онлайн-курсов по интернет-маркетингу Топ-10 онлайн-курсов по интернет-маркетингу</h3>
+                        <div class="blog-meta">
+                            <span class="blog-date">1 сентября</span>
+                            <a href="#" class="blog-more">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <span class="blog-category">Онлайн курсы по маркетингу</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Топ-10 онлайн-курсов по интернет-маркетингу</h3>
+                        <div class="blog-meta">
+                            <span class="blog-date">1 сентября</span>
+                            <a href="#" class="blog-more">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <span class="blog-category">Онлайн курсы по маркетингу</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Топ-10 онлайн-курсов по интернет-маркетингу</h3>
+                        <div class="blog-meta">
+                            <span class="blog-date">1 сентября</span>
+                            <a href="#" class="blog-more">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Категории</h3>
+                    <ul>
+                        <li><a href="#">Программирование</a></li>
+                        <li><a href="#">Маркетинг</a></li>
+                        <li><a href="#">Дизайн</a></li>
+                        <li><a href="#">Управление</a></li>
+                        <li><a href="#">Контент-маркетинг</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Школы</h3>
+                    <ul>
+                        <li><a href="#">GeekBrains</a></li>
+                        <li><a href="#">Нетология</a></li>
+                        <li><a href="#">SkillFactory</a></li>
+                        <li><a href="#">СonvertMonster</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Отзывы о школах</h3>
+                    <ul>
+                        <li><a href="#">Отзывы о GeekBrains</a></li>
+                        <li><a href="#">Отзывы о Нетологии</a></li>
+                        <li><a href="#">Отзывы о SkillFactory</a></li>
+                        <li><a href="#">Отзывы о СonvertMonster</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Курсы</h3>
+                    <ul>
+                        <li><a href="#">С трудоустройством</a></li>
+                        <li><a href="#">Платные</a></li>
+                        <li><a href="#">Бесплатные</a></li>
+                        <li><a href="#">Дистанционные</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Уровень сложности</h3>
+                    <ul>
+                        <li><a href="#">Начальный</a></li>
+                        <li><a href="#">Средний</a></li>
+                        <li><a href="#">Профессиональный</a></li>
+                        <li><a href="#">Для детей</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="/" class="logo">LOGO</a>
+                <p>Designed by Saidbek Ikromov</p>
+                <div class="social-links">
+                    <a href="#"><img src="images/vk-icon.svg" alt="VK"></a>
+                    <a href="#"><img src="images/telegram-icon.svg" alt="Telegram"></a>
+                    <a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a>
+                    <a href="#"><img src="images/youtube-icon.svg" alt="YouTube"></a>
+                    <a href="#"><img src="images/facebook-icon.svg" alt="Facebook"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/page1.js"></script>
+</body>
+</html> 
